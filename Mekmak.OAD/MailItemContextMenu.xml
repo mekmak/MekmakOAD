@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+  </ribbon>
+  <contextMenus>
+    <contextMenu idMso="ContextMenuMailItem">
+      <menuSeparator id="SingleItemContextSeparator" />
+      <button id="DownloadAllAttachmentsContextMenuMailItem"
+          label="Download All Attachments"
+          onAction="OnDownloadAllAttachmentsContextMenuMailItemClick"/>
+    </contextMenu>
+    <contextMenu idMso="ContextMenuMultipleItems">
+      <menuSeparator id="MultipleItemContextSeparator" />
+      <button id="DownloadAllAttachmentsContextMenuMailItems"
+          label="Download All Attachments"
+          onAction="OnDownloadAllAttachmentsContextMenuMailItemClick"/>
+    </contextMenu>
+  </contextMenus>
+</customUI>
